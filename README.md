@@ -1,8 +1,11 @@
 💼 Salary Prediction from Job Listings
+
 📌 Overview
+
 This project predicts job salaries based on attributes such as job title, location, company size, experience, industry, and job description using machine learning regression models. It includes preprocessing, model training, evaluation, and feature importance visualization.
 
 🗂️ Project Structure
+
 🧹 Data Preprocessing: Cleaning and imputation of missing values
 
 🛠️ Feature Engineering: Handling numerical, categorical, and textual features
@@ -16,6 +19,7 @@ This project predicts job salaries based on attributes such as job title, locati
 🧾 Interpretability: Top features from Lasso coefficients
 
 📁 Dataset
+
 File: job_listings.csv
 
 Target Variable: salary
@@ -35,6 +39,7 @@ Features:
 📝 job_description
 
 🧰 Requirements
+
 Install required libraries:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
